@@ -1,0 +1,32 @@
+footer {
+    background-color: #CFDBFF;
+    .div1 {
+        display: flex;
+        align-items: center;
+    }
+    .div2{
+        display: flex;
+        justify-content: flex-end;
+        img {
+            
+            width: 70px;
+            height: 70px;
+        }
+    }
+    .div3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .div2 {
+        
+        img {
+            width: 60px;
+            height: 60px;
+        }
+
+    }
+} 

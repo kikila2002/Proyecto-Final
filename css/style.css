@@ -3,6 +3,27 @@
   padding: 0;
   margin: 0; }
 
+footer {
+  background-color: #CFDBFF; }
+  footer .div1 {
+    display: flex;
+    align-items: center; }
+  footer .div2 {
+    display: flex;
+    justify-content: flex-end; }
+    footer .div2 img {
+      width: 70px;
+      height: 70px; }
+  footer .div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+@media (max-width: 991px) {
+  .div2 img {
+    width: 60px;
+    height: 60px; } }
+
 header nav .div-icono {
   width: 100%;
   display: flex;
@@ -40,12 +61,31 @@ header nav .div-icono {
       margin-left: 5px;
       font-size: 4rem; }
 
+.arriba {
+  display: flex;
+  justify-content: center; }
+  .arriba .carta {
+    width: 80%;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    overflow: hidden;
+    object-fit: cover; }
+    .arriba .carta img {
+      object-fit: cover;
+      border-radius: 30px; }
+    .arriba .carta div p {
+      font-size: 16px; }
+
+.sepa {
+  padding: 10px; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-main .quienesfondo {
+.quienesfondo {
   background: white;
   background: linear-gradient(180deg, white 10%, #cfdbff 50%, #eeeeee 90%);
   color: black; }

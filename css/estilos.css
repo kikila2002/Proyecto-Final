@@ -1,27 +1,7 @@
-
-
-.color {
-    color: wheat;
-}
-body {
-    width: 100%;
-    
-}
-
-.quienesimg {
-    object-fit: contain;
-}
-
-
-
 .invertir {
     transform: scaleX(-1);
 }
-footer {
-    height: 100px;
-    display: flex;
-    align-items: center;
-}
+
 
 
 .titulogood {
