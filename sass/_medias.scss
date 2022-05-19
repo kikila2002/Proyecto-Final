@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+    .div2 {
+        
+        img {
+            width: 60px;
+            height: 60px;
+        }
+
+    }
+} 
+@media (max-width: 991px) {
+    .li-hover:hover::before {
+    
+        display: none;
+    
+    }
+}

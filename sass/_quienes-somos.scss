@@ -23,3 +23,10 @@
 .sepa {
     padding: 10px;
 }
+.imgzoom {
+    transition: transform 0.3s ease;
+}
+
+.imgzoom:hover {
+    transform: scale(1.05);
+}

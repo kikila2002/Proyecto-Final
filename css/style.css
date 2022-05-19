@@ -19,11 +19,6 @@ footer {
     align-items: center;
     justify-content: center; }
 
-@media (max-width: 991px) {
-  .div2 img {
-    width: 60px;
-    height: 60px; } }
-
 header nav .div-icono {
   width: 100%;
   display: flex;
@@ -61,6 +56,14 @@ header nav .div-icono {
       margin-left: 5px;
       font-size: 4rem; }
 
+.divp {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black; }
+
 .arriba {
   display: flex;
   justify-content: center; }
@@ -80,6 +83,12 @@ header nav .div-icono {
 .sepa {
   padding: 10px; }
 
+.imgzoom {
+  transition: transform 0.3s ease; }
+
+.imgzoom:hover {
+  transform: scale(1.05); }
+
 * {
   margin: 0;
   padding: 0;
@@ -89,6 +98,20 @@ header nav .div-icono {
   background: white;
   background: linear-gradient(180deg, white 10%, #cfdbff 50%, #eeeeee 90%);
   color: black; }
+
+.titulogood {
+  -webkit-animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    letter-spacing: normal;
+    opacity: 1; } }
 
 h3 {
   text-transform: uppercase; }
@@ -107,3 +130,21 @@ a {
 
 .nombre3 {
   color: pink; }
+
+@media (max-width: 991px) {
+  .div2 img {
+    width: 60px;
+    height: 60px; } }
+
+@media (max-width: 991px) {
+  .li-hover:hover::before {
+    display: none; } }
+
+.invertir {
+  transform: scaleX(-1); }
+
+.imgzoom {
+  transition: transform 0.3s ease; }
+
+.imgzoom:hover {
+  transform: scale(1.05); }
