@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@each $mayusculas in (h3) {
+    #{$mayusculas} {
+        text-transform: uppercase;
+    }
+    
+}
+
+@each $links in (a) {
+    #{$links} {
+        text-decoration: none;
+    }
+    
+}
+
+$nom: (
+    nombre0: black,
+    nombre1: black,
+    nombre2: pink,
+    nombre3: pink,
+);
+
+@each $name, $color in $nom {
+    .#{$name} {
+        color: $color;
+    }
+}

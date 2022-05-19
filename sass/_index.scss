@@ -1,0 +1,44 @@
+.fondom {
+    background-image: url(../imagenes/AQUI.jpg) ;
+    
+    section {
+        div {
+            
+            div { 
+               
+                .textol {
+                    width: 100%;
+                    color: black;
+                   
+                }
+                p {
+                    .enlasee a {
+                        color: white;
+                    
+                    
+                        &:link {
+                            text-decoration: none;
+                            
+                        }
+                        &:hover::after {
+                            
+                            content: '👈';
+                            margin-left: 5px;
+                            font-size: 4rem;
+                            
+                        }
+                        &:hover::before {
+                            
+                            content: '👉';
+                            margin-left: 5px;
+                            font-size: 4rem;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+
+
+
+}
