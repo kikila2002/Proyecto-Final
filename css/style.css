@@ -45,6 +45,11 @@ header nav .div-icono {
   padding: 0;
   box-sizing: border-box; }
 
+main .quienesfondo {
+  background: white;
+  background: linear-gradient(180deg, white 10%, #cfdbff 50%, #eeeeee 90%);
+  color: black; }
+
 h3 {
   text-transform: uppercase; }
 

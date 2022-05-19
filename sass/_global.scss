@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+main {
+    .quienesfondo {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(207,219,255,1) 50%, rgba(238,238,238,1) 90%);
+        color: black;
+    }
+}
+
 @each $mayusculas in (h3) {
     #{$mayusculas} {
         text-transform: uppercase;

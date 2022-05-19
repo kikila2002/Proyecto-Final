@@ -11,17 +11,9 @@ body {
 .quienesimg {
     object-fit: contain;
 }
-.quienesfondo {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(207,219,255,1) 50%, rgba(238,238,238,1) 90%);
-    color: black;
-}
 
-.indexmain {
-    background: rgb(247,255,147);
-    background: linear-gradient(180deg, rgba(247,255,147,1) 25%, rgba(161,227,216,1) 44%, rgba(6,154,142,1) 78%);
-    color: rgb(58, 56, 69);
-}
+
+
 .invertir {
     transform: scaleX(-1);
 }
