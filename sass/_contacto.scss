@@ -1,0 +1,19 @@
+.contac-fondo{
+    background-image: url(../imagenes/fondo-tur.jpg);
+    
+}
+.tabla-contac {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    tr {
+        
+        height: 100px;
+        th {
+            width: 300px;
+        }
+    }
+}
