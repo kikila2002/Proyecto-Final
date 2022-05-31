@@ -38,23 +38,22 @@ header nav .div-icono {
         display: flex;
         justify-content: center; }
 
-.fondom {
-  background-image: url(../imagenes/AQUI.jpg); }
-  .fondom section div div .textol {
-    width: 100%;
-    color: black; }
-  .fondom section div div p .enlasee a {
-    color: white; }
-    .fondom section div div p .enlasee a:link {
-      text-decoration: none; }
-    .fondom section div div p .enlasee a:hover::after {
-      content: '👈';
-      margin-left: 5px;
-      font-size: 4rem; }
-    .fondom section div div p .enlasee a:hover::before {
-      content: '👉';
-      margin-left: 5px;
-      font-size: 4rem; }
+.quienesfondo section div div .textol {
+  width: 100%;
+  color: black; }
+
+.quienesfondo section div div p .enlasee a {
+  color: white; }
+  .quienesfondo section div div p .enlasee a:link {
+    text-decoration: none; }
+  .quienesfondo section div div p .enlasee a:hover::after {
+    content: '👈';
+    margin-left: 5px;
+    font-size: 4rem; }
+  .quienesfondo section div div p .enlasee a:hover::before {
+    content: '👉';
+    margin-left: 5px;
+    font-size: 4rem; }
 
 .divp {
   width: 100%;
