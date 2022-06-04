@@ -1,4 +1,10 @@
+
 @media (max-width: 991px) {
+    .li-hover:hover::before {
+    
+        display: none;
+    
+    }
     .div2 {
         
         img {
@@ -7,11 +13,8 @@
         }
 
     }
-} 
-@media (max-width: 991px) {
-    .li-hover:hover::before {
-    
-        display: none;
-    
+    .divpq {
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -185,13 +185,14 @@ a {
   color: pink; }
 
 @media (max-width: 991px) {
+  .li-hover:hover::before {
+    display: none; }
   .div2 img {
     width: 60px;
-    height: 60px; } }
-
-@media (max-width: 991px) {
-  .li-hover:hover::before {
-    display: none; } }
+    height: 60px; }
+  .divpq {
+    display: flex;
+    flex-direction: column; } }
 
 .invertir {
   transform: scaleX(-1); }
@@ -208,7 +209,7 @@ a {
 .tabla-contac {
   display: flex;
   width: 100%;
-  height: 700px;
+  height: 600px;
   align-items: center;
   justify-content: center;
   text-align: center; }
