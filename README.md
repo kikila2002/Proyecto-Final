@@ -3,7 +3,7 @@
 
 ------------
 
-** ¿Quienes somos?**
+### ¿Quienes somos? ###
 
 Somos una empresa enfocada al bienestar animal. Ofrecemos la mejor atencion que podra encontrar en Cordoba Capital, con tiempos de esperas muy reducidos. 
 
